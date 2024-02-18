@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; }
+
+@font-face {
+ font-family: "Leto Text Sans Defec";
+ src: url("shrift/Leto Text Sans Defect.otf"); }
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);} }
+
+body {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(cartinka/space.jpg);
+	background-size: cover;
+	font-family: "Leto Text Sans Defec";
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column; }
+
+body::-webkit-scrollbar {
+	width: 0px; }
+
+#wrapper {
+	display: flex;
+	margin: 0 auto;
+	padding: 10px; }
+
+h1 {
+	text-align: center;
+	color: white; }
+
+h2 {
+	font-size:3em;
+}
+
+h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#podzogalov {
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+content p {
+	padding-bottom: 10px;
+	text-shadow: 3px 2px 3px #000000; }
+
+content img {
+	filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.8));
+	margin: 10px 10px 10px 25px;
+	animation: spin 120s linear 0s infinite;
+}
+
+content {
+	color: white;
+	text-align: justify;
+	box-sizing: border-box; }
+
+#reclama {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	padding-top: 20px; }
+
+.blok {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: black; }
+
+#image h1 {
+	color: white;
+	font-weight: 400;
+	text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.5); }
+
+.image0 {
+	background: url(cartinka/sun.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image1 {
+	background: url(cartinka/Mercuriy.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image2 {
+	background: url(cartinka/venera.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image3 {
+	background: url(cartinka/terra.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image4 {
+	background: url(cartinka/mars.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image5 {
+	background: url(cartinka/Jupiter.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+	
+.image6 {
+	background: url(cartinka/Saturn.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image7 {
+	background: url(cartinka/Uranus.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+	
+.image8 {
+	background: url(cartinka/Neptune.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+a {
+	text-decoration: none;
+}
+
+#foot {
+	min-height: 60px;
+	align-items: center;
+	display: flex;
+	margin-left: 20px;
+	font-size: 2em; }
+
+#foot a {
+	display: block;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+#foot a:link, #foot a:visited {
+	color: #ffffff;
+	text-decoration: none; }
+
+#foot a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+    line-height: 60px;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.75);
+	display: flex;
+	flex-direction: column;
+	align-items: center; }

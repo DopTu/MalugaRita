@@ -1,0 +1,134 @@
+@media (min-width: 992px) and (max-width: 1199.9px) {
+
+nav {
+	font-size: 35px; }
+
+h1 {
+	padding: 7px; }
+
+#content {
+	height: 1800px; }
+
+#sun img {
+	width: 140px;
+	height: 140px; }
+
+#mercury img {
+	width: 50px;
+	height: 50px;
+}
+
+#hesperus img {
+	width: 55px;
+	height: 55px;
+}
+
+#terra img {
+	width: 60px;
+	height: 60px;
+}
+
+#mars img {
+	width: 50px;
+	height: 50px;
+}
+
+#jupiter img {
+	width: 100px;
+	height: 100px;
+}
+
+#saturn img {
+	width: 151px;
+	height: 87px;
+}
+
+#uranus img {
+	width: 70px;
+	height: 70px;
+}
+
+#neptune img {
+	width: 70px;
+	height: 70px;
+}
+
+/*высплывающие окна*/
+	.tooltip {
+		position: relative; } /* Относительное позиционирование */
+
+	.tooltip::after {
+		position: absolute; /* Абсолютное позиционирование */
+		content: attr(data-info); /* Выводим текст */
+		max-width: 300px;
+		min-width: 100px; /* Ширина подсказки */
+		left: 100%; /* Положение подсказки */
+		text-align: center;
+		color: #fff; /* Цвет текста */
+		background: rgba(0, 0, 0, 0.7); /*черного фона */
+		padding: 0.5em; /* Поля вокруг текста */
+		pointer-events: none; /* Подсказка */
+		opacity: 0; /* Подсказка невидима */
+		transition: 1s; /* Время появления подсказки */
+		border: 1px dashed #FFFFFF;
+		border-radius: 20px;
+		z-index: 1; }
+
+	#sun .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 7.5em; /* Положение подсказки */
+		z-index: 1; }
+
+	#mercury .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#hesperus .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#terra .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#mars .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#jupiter .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#saturn .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#uranus .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+	#neptune .tooltip:hover::after {
+		opacity: 1; /* Показываем подсказку */
+		left: 2em; /* Положение подсказки */
+		z-index: 1; }
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+#sun a:hover {
+	text-decoration: none;
+	filter: drop-shadow(0px 0px 50px rgba(255, 50, 0, 0.8));
+}
+
+a:hover {
+	text-decoration: none;
+	filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.5));
+}

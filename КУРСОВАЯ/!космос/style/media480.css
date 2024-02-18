@@ -1,0 +1,134 @@
+@media (min-width: 480px) and (max-width: 649.9px) {
+
+/*начало страницы*/
+
+#wrapper {
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Солнечная система*/
+h1 {
+	font-size: 1.5em;
+}
+
+/*название объекта*/
+h2 {
+	font-size: 1.5em;
+	margin-left: 40px;
+}
+
+/*заголовок*/
+h3 {
+	font-size: 1.5em;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#podzogalov {
+	margin-left: 20px;
+}
+
+content img {
+	width: 150px;
+	height: 150px;
+}
+
+content {
+	width: 90%;
+}
+
+content p {
+	font-size: 1.3em;
+	margin-left: 35px;
+	margin-right: 25px;
+}
+
+#reclama {
+	width: 90%;
+}
+
+.blok {
+	width: 90%;
+	padding: 10px;
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+#image h1 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+#image {
+	width: 100px;
+	height: 100px;
+}
+
+.image0 {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	padding-right: 30px;
+}
+
+.image1 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 0px;
+}
+
+.image2 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 30px;
+}
+
+.image3 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 50px;
+}
+
+.image4 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 55px;
+}
+
+.image5 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 20px;
+}
+	
+.image6 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 25px;
+}
+
+.image7 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 60px;
+}
+	
+.image8 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-right: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#foot {
+	min-height: 60px;
+	margin-left: 20px;
+	font-size: 0.9em; }
+
+}

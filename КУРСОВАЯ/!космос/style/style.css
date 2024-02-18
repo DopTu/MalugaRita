@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; }
+
+@font-face {
+ font-family: "canis minor";
+ src: url("C:/Users/Маргарита/Desktop/КУРСОВАЯ/!космос/shrift/canis minor.otf"); }
+
+body::-webkit-scrollbar {
+	width: 0px; }
+
+body {
+	font-family: "canis minor"; }
+
+#stars {
+	width: 100%;
+	height: 150vh !important;
+	-webkit-transition: all 0.4 ease-in-out;
+	-moz-transition: all 0.4 ease-in-out;
+	-ms-transition: all 0.4 ease-in-out;
+	-o-transition: all 0.4 ease-in-out;
+	position: absolute;
+	z-index: 100;
+}
+
+nav {
+	height: 100vh;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0,0,0,0) 100%), url(C:/Users/Маргарита/Desktop/КУРСОВАЯ/!космос/cartinka/fon1.jpg);
+	background-size: cover; }
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#content {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0,0,0,0) 160%);
+	background-color: black;
+	background-size: cover;
+}
+
+canvas {
+	background-color: black;
+}
+
+#sun {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50%;
+}
+
+#mercury {
+	position:absolute;
+}
+
+#hesperus {
+	position:absolute;
+}
+
+#terra {
+	position: absolute;
+}
+
+#mars {
+	position: absolute;
+}
+
+#jupiter {
+	position: absolute;
+}
+
+#saturn {
+	position: absolute;
+}
+
+#uranus {
+	position: absolute;
+}
+
+#neptune {
+	position: absolute;
+}
+
+#stars {
+	z-index: auto;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+#sun a:hover {
+	text-decoration: none;
+	filter: drop-shadow(0px 0px 50px rgba(255, 50, 0, 0.8));
+}
+
+a:hover {
+	text-decoration: none;
+	filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.5));
+}
