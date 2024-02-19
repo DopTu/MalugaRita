@@ -1,8 +1,7 @@
-Авторизировался на GitHub
-Скачал Git, GitHubDesktop (так как Gogs не подразумевает работы в интернете (как локальное приложение на компьютере)
-Создал репозиторий на GitHub
-Зашёл в GitHubDesktop и авторизовался
-Создал локальный клон репозитория
-Добавил файлы в репозиторий
-Создал новый коммит "First commit" и Push
-Создал файл README.md
+git init
+git commit -m "First Test"
+git branch -M main
+git remote add origin https://github.com/DopTu/MalugaRita.git
+git push -u origin main
+git add README.md
+git commit -m "Create README.md"
